@@ -12,12 +12,12 @@ python script
 git clone https://github.com/dotnetpower/Translator.git
 ```
 
-https://portal.azure.com 에서 Translator Cognitive services 생성후 Key 복사하여 Translator.py 의 key 에 붙여넣고
+https://portal.azure.com 에서 Translator Cognitive services 생성후 Key 복사하여 Translator.py 의 key 에 붙여넣고 아래 명령 실행
 
 ```
 cd Translator
 
-pip install  requests, json, logging, sys, uuid
+pip install  requests
 
 Python.exe Translator.py "test_ko.txt", "en"
 ```

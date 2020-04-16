@@ -33,10 +33,6 @@ class TransaltorAPI:
         outfile.close()
         logging.info('완료')
 
-# 실행방법: 
-# 실행 오류시 필요 라이브러리 설치명령> pip install requests, json, logging, sys, uuid
-# Python.exe Translator.py "test_ko.txt", "en"
-# Python.exe Translator.py "test_en.txt", "ko"
 if __name__ == '__main__':
     file = sys.argv[1]
     lang = sys.argv[2]
